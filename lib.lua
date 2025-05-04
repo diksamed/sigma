@@ -1,18 +1,3 @@
---[[
-	Advanced ESP Library v2.0
-
-	Features:
-	- Player ESP (Boxes [2D, Corner, 3D], Skeleton, Health, Name, Distance, Weapon, Head Dot, Look Vector, Tracers, Off-Screen Arrows)
-	- Player Chams (Fill, Outline, Material, Visible Only)
-	- World ESP (Basic Instance ESP with filtering)
-	- Customizable Settings per team (Enemy/Friendly) and shared settings.
-	- Abstracted Game Interface (Requires user implementation for game-specific logic)
-	- Performance optimizations (caching, selective updates)
-	- Modular design
-
-	Requires a Drawing library (global `Drawing` object assumed).
-	Designed for exploit environments.
-]]
 
 -- // Services \\ --
 local RunService = game:GetService("RunService")
